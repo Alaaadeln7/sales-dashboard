@@ -4,3 +4,8 @@
 .container {
   padding: 0 2.5rem;
 }
+html {
+  scroll-behavior: smooth;
+  width: 100vw;
+  overflow-x: hidden;
+}

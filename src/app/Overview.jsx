@@ -7,7 +7,7 @@ import OverviewCard from "./OverviewCard";
 export default function Overview() {
   const [date, setDate] = useState();
   return (
-    <section className="bg-base-100 rounded-sm">
+    <section className="bg-base-100 rounded-sm p-5">
       <header className="flex justify-between items-center px-3 my-3">
         <h1 className="flex gap-3 items-center justify-center text-3xl">
           <LayoutDashboard />
@@ -44,6 +44,7 @@ export default function Overview() {
           icon={<ShoppingBag />}
           bg={"bg-blue-100"}
           color={"bg-blue-500"}
+          textColor={"text-blue-500"}
         />
         <OverviewCard
           title={"profit"}
@@ -52,6 +53,7 @@ export default function Overview() {
           icon={<DollarSign />}
           bg={"bg-cyan-100"}
           color={"bg-cyan-500"}
+          textColor={"text-cyan-500"}
         />
         <OverviewCard
           title={"new customer"}
@@ -60,6 +62,7 @@ export default function Overview() {
           icon={<User />}
           bg={"bg-purple-100"}
           color={"bg-purple-500"}
+          textColor={"text-purple-500"}
         />
       </div>
     </section>

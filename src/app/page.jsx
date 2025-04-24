@@ -6,7 +6,7 @@ import DetailedReport from "./DetailedReport";
 export default function Home() {
   return (
     <main className="container bg-base-200">
-      <header className="flex justify-between items-center px-2 mt-10">
+      <header className="flex justify-between items-center px-2 my-10 flex-wrap">
         <h1 className="font-bold text-3xl">Dashboard</h1>
         <form>
           <div className="form-controled bg-base-100 flex py-3 px-2 rounded-sm">

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Pagination() {
   return (
-    <section className="flex justify-between items-center px-3">
+    <section className="flex justify-between items-center px-3 my-10">
       <p>1 - 10 of 145</p>
       <div className="join">
         <input

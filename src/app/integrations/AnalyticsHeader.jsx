@@ -12,7 +12,7 @@ export default function AnalyticsHeader() {
           className="text-sm justify-end bg-purple-100 text-purple-600 rounded-2xl p-2"
           datetime="Oct 20, 2022"
         >
-          Today: Oct 20, 2022{" "}
+          Today: Oct 20, 2022
         </time>
       </div>
       <div>

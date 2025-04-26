@@ -29,11 +29,14 @@ export default function Sidebar() {
             </Link>
           </li>
           <li className="w-full">
-            <button className="btn w-full btn-ghost justify-start hover:bg-primary hover:text-base-100">
+            <Link
+              href={"/projects"}
+              className="btn w-full btn-ghost justify-start hover:bg-primary hover:text-base-100"
+            >
               <FolderKanban className="size-5" />
 
               <span className="sm:block hidden"> Projects</span>
-            </button>
+            </Link>
           </li>
           <li className="w-full">
             <button className="btn w-full btn-ghost justify-start hover:bg-primary hover:text-base-100">

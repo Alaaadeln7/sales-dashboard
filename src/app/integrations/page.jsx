@@ -8,7 +8,7 @@ import SalesChart from "./SalesChart";
 
 export default function Integrations() {
   return (
-    <section className="bg-base-200 w-screen">
+    <section className="bg-base-300 w-screen">
       <IntegrationsHeader />
       <AnalyticsOverview />
       <div className="flex gap-4 justify-center flex-wrap">
